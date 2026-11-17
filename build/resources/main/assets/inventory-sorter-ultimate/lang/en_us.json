@@ -1,0 +1,13 @@
+{
+  "key.category.inventory-sorter-ultimate.general": "InventorySorterUltimate",
+  "key.inventory-sorter-ultimate.sort": "Sort Inventory",
+  "config.inventory-sorter-ultimate.title": "InventorySorterUltimate Settings",
+  "config.inventory-sorter-ultimate.enabled": "Sorting Enabled",
+  "config.inventory-sorter-ultimate.enabled.tooltip": "Enable or disable inventory and container sorting.",
+  "config.inventory-sorter-ultimate.delay": "Sorting Delay: %s ticks",
+  "config.inventory-sorter-ultimate.delay.tooltip": "Delay in ticks between moving items when sorting (0 = fastest, 1 = default).",
+  "config.inventory-sorter-ultimate.disable_creative": "Disable in Creative",
+  "config.inventory-sorter-ultimate.disable_creative.tooltip": "Disables the inventory sorter while in Creative mode so middle-click item cloning works normally.",
+  "config.inventory-sorter-ultimate.sort_key": "Sort Key: %s",
+  "config.inventory-sorter-ultimate.sort_key.tooltip": "Click to bind any mouse button or keyboard key (Press ESC to unbind)."
+}

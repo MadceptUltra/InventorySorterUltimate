@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "inventory-sorter-ultimate",
+  "version": "1.0.0+26.3",
+  "name": "InventorySorterUltimate",
+  "description": "InventorySorterUltimate: One-click sorting for your inventory and chests. Clean stacks, zero clutter, more time playing.",
+  "authors": [
+    "Madcept"
+  ],
+  "license": "MIT",
+  "icon": "assets/inventory-sorter-ultimate/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.inventorysorter.InventorySorterMod"
+    ],
+    "modmenu": [
+      "dev.inventorysorter.compat.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "inventory-sorter-ultimate.mixins.json"
+  ],
+  "depends": {
+    "java": ">=25",
+    "minecraft": "~26.3",
+    "fabricloader": ">=0.19.5"
+  }
+}
